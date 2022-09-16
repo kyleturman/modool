@@ -1,0 +1,31 @@
+{
+  "name": "modool",
+  "version": "0.1.0",
+  "description": "A lightweight Javascript interactivity framework",
+  "files": ["dist/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyleturman/modool.git"
+  },
+  "main": "dist/modool.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development --watch"
+  },
+  "keywords": [],
+  "author": "Kyle Turman",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
